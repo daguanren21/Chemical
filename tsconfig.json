@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "module": "esnext",
+      "target": "esnext",
+      "lib": ["DOM", "ESNext"],
+      "strict": true,
+      "jsx": "preserve",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "bundler",
+      "resolveJsonModule": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "forceConsistentCasingInFileNames": true,
+      "types": ["vite/client", "vitepress","naive-ui/volar"],
+      "paths": {
+        "~/*": ["src/*"]
+      },
+      "customConditions": ["dev"]
+    },
+    "include": ["**/*", "./.*/**/*", "../packages/shim.d.ts"],
+    "exclude": ["dist", "node_modules"]
+  }
+  

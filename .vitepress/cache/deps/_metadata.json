@@ -1,0 +1,32 @@
+{
+  "hash": "c7c64c8f",
+  "browserHash": "7894db41",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "f4e3ae53",
+      "needsInterop": false
+    },
+    "markdown-it-mathjax3": {
+      "src": "../../../node_modules/.pnpm/markdown-it-mathjax3@4.3.2/node_modules/markdown-it-mathjax3/index.js",
+      "file": "markdown-it-mathjax3.js",
+      "fileHash": "4fe84e98",
+      "needsInterop": true
+    },
+    "naive-ui": {
+      "src": "../../../node_modules/.pnpm/naive-ui@2.34.4_vue@3.3.4/node_modules/naive-ui/es/index.js",
+      "file": "naive-ui.js",
+      "fileHash": "01fedf48",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WICYTZ2N": {
+      "file": "chunk-WICYTZ2N.js"
+    },
+    "chunk-AC2VUBZ6": {
+      "file": "chunk-AC2VUBZ6.js"
+    }
+  }
+}
